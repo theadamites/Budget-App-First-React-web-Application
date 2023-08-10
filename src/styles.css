@@ -1,0 +1,168 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  overflow-y: auto; 
+  max-height: 100%;
+}
+html, body {
+	
+  background-color: #ffffff;
+  text-align: left;
+  margin: 0;
+}
+
+* {
+	font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+#app {
+	position: relative;
+	width: 100%;
+	padding: 10px;
+}
+
+input {
+  width: 90%;
+  max-width: 300px;
+  margin: 5px 5%;
+}
+button {
+  width: 90%;
+  max-width: 300px;
+  margin: 5px 5%;
+}
+
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+
+/* Admin.css */
+
+.user-list {
+  border: 2px solid rgb(202, 5, 5);
+  padding: 5px;
+  height:50%;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 10 2px 4px rgba(216, 14, 14, 0.1);
+}
+
+.user-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #c93838;
+}
+
+.user-number {
+  font-weight: bold;
+}
+
+.user-details {
+  margin-left: 10px;
+}
+
+/* FeedBox.css */
+.feed-box {
+  max-height:400px; /* Set the maximum height of the feed box */
+  overflow-y: auto; /* Enable vertical scroll when content exceeds max-height */
+  border: 1px fade #cac8c8;
+  padding: 20px;
+  position: center;
+	width: 100%;
+	padding: 10px;
+}
+
+.feed-item {
+  border: 1px solid #df1313;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+/* styles.css */
+/* ... (other styles) */
+/* styles.css */
+/* styles.css */
+.analize-container {
+  font-family: sans-serif;
+  text-align: center;
+  overflow-y: auto;
+}
+
+/* ... other styles ... */
+
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #8fe4ca;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+
+.progress {
+  height: 100%;
+  background-color: hwb(123 0% 29%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center; /* Center vertically */
+  position: relative;
+}
+
+.progress-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #e9e2e2;
+  font-size: 14px;
+}
+
+.account-section {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+.account-section h2 {
+  margin-bottom: 10px;
+}
+
+.account-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.account-info div {
+  margin: 5px 0;
+}
+
+/* Your existing styles */
+
+
+/* Your existing styles */
+
+.fade-blur {
+  position: relative;
+  overflow: hidden;
+}
+
+.fade-blur::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle, rgba(255, 0, 0, 0.6), transparent); /* Radial gradient for the fade blur */
+  pointer-events: none; /* Allow clicking through the pseudo-element */
+}
+
