@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Users from "./profiles";
 import Analize from "./adminAnalysis";
+import Admin from "./admin";
 
 export default function ValidLog() {
   const [username, setUsername] = useState("");
@@ -54,20 +55,9 @@ export default function ValidLog() {
       {loggedIn ? (
         <div>
           {specificUser.admin ? (
+            
             <div className="feed-box">
-                    <Analize/>
-              <h2>User List</h2>
-              {userList.map((user, index) => (
-                <div key={index}>
-                  <p>User number: {user.ID}</p>
-                  <p>First Name: {user.firstName}</p>
-                  <p>Last Name: {user.lastName}</p>
-                  <p>Age: {user.age}</p>
-                  <p>Income: {user.income}</p>
-                  <p>Password: {user.password}</p>
-                  <button onClick={() => deleteProfile(user.ID)}>Remove From List</button>
-                </div>
-              ))}
+                  <Admin/>
             </div>
           ) : (
             <div>

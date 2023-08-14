@@ -39,7 +39,7 @@ export default function Analize() {
             style={{ width: `${(averageAge / 40) * 100}%`}}
           >
             <div className="progress-text">
-              AAG: 40 | {Math.round((averageAge / 40) * 100)||0}
+              AAG: 40 | {Math.round((averageAge / 40) * 100)||0}%
             </div>
           </div>
         </div>
