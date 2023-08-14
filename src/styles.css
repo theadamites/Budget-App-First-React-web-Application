@@ -1,4 +1,4 @@
-/* Reset some default styles sup */
+/* Reset some default styles */
 body, html {
   margin: 0;
   padding: 0;
@@ -14,7 +14,6 @@ body, html {
 }
 
 #app {
-  position: relative;
   width: 100%;
   padding: 10px;
   display: flex;
@@ -61,18 +60,11 @@ input, button {
 }
 
 /* Other styles */
-.analize-container {
-  font-family: sans-serif;
-  text-align: center;
-  overflow-y: auto;
-  position: center;
-}
 
 .progress-bar {
-  position: center;
-  width: 95%;
+  width: 100%;
   height: 20px;
-  background-color: #8fe48f;
+  background-color: #8fe4ca;
   border-radius: 20px;
   margin-top: 5px;
 }
@@ -142,80 +134,10 @@ input, button {
   z-index: -1;
 }
 
-
-
-/* Other styles */
-
-/* styles.css (or your main CSS file) */
-#app-boundary {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1; /* Send it to the back */
-}
-
-/* Additional styles */
-.fade-blur {
-  position: relative;
-  overflow: hidden;
-}
-
-.fade-blur::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: radial-gradient(circle, rgba(255, 0, 0, 0.6), transparent);
-  pointer-events: none;
-}
-
-/* Your existing styles */
-
-/* Responsive progress bar */
-.progress-bar-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.progress-bar {
-  width: 100%;
-  max-width: 300px;
-  height: 20px;
-  background-color: #8fe4ca;
-  border-radius: 20px;
-  margin-top: 5px;
-  position: relative;
-  overflow: hidden;
-}
-
-.progress {
-  height: 100%;
-  background-color: hwb(123 0% 29%);
-  border-radius: 10px;
-  position: relative;
-}
-
-.progress-text {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #e9e2e2;
-  font-size: 14px;
-}
-
-
 /* Additional styles */
 .create-profile {
-  
-  position: relative;
   padding: 20px;
   max-width: 100%;
-  max-height: 100%;
   background-color: #f7f7f7;
   border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -227,4 +149,3 @@ input, button {
   max-width: 300px;
   margin-top: 10px;
 }
-
