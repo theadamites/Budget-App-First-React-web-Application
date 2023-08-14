@@ -20,13 +20,13 @@ const Users = [
     password: "jimmy"
   },
   {
-    userName: "Daria",
+    userName: "Jenna",
     ID:3,
-    firstName: "Daria",
+    firstName: "Jenna",
     lastName: "Tolmacove",
-    age: 24,
-    income: 20000,
-    password: "ExFiance"
+    age: 27,
+    income: 1,
+    password: "meh"
     },
   {
     userName: "randy",
