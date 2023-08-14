@@ -45,9 +45,9 @@ input, button {
 
 /* FeedBox styles */
 .feed-box {
-  max-height: 80vh; /* Adjust to your preference */
+  max-height: 100%; /* Adjust to your preference */
   overflow-y: auto;
-  border: 1px solid #cac8c8;
+  border: 1px solid #ffffff;
   padding: 20px;
   width: 100%;
   margin: 10px auto; /* Center horizontally */
