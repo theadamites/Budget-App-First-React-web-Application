@@ -49,12 +49,16 @@ export default function Admin() {
   // Function to calculate gradient color based on a percentage value
   function calculateGradientColor(percentage) {
     if (percentage === 50) {
+     
       return null;
+     
     } else if (percentage > 50) {
-      const green = Math.round(255 * (percentage / 100));
-      return `radial-gradient(circle, rgba(${green}, 255, ${green}, 0.6), transparent)`;
+      const green = Math.round(125 * (percentage / 100));
+   
+      return `radial-gradient(circle, rgba(${green}, 255, ${green}, .6), transparent)`;
     } else if (percentage < 50) {
-      const red = Math.round(255 * (percentage / 100));
+      const red = Math.round(125 * (percentage / 100));
+   
       return `radial-gradient(circle, rgba(255, ${red}, ${red}, 0.6), transparent)`;
     }
   }
@@ -65,7 +69,8 @@ export default function Admin() {
       <div className="feed-box">
         <h2>User List</h2>
         {userList.map((user, index) => (
-          <div key={user.ID} className="user-info-box" style={{ background: calculateGradientColor(((user.income / 75000) * 100), user.Id, user.income) }}>
+          <div key={user.ID} className="user-info-box" style={{ background: calculateGradientColor(((user.income / 100000) * 100), user.Id, user.income) }}>
+ 
             <p>User number: {user.ID}</p>
             <p>First Name: {user.firstName}</p>
             <p>Last Name: {user.lastName}</p>
