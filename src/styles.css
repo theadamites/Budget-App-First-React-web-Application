@@ -49,7 +49,7 @@ input, button {
   overflow-y: auto;
   border: 1px solid #ffffff;
   padding: 20px;
-  width: 100%;
+  max-width: 100%;
   margin: 10px auto; /* Center horizontally */
 }
 
