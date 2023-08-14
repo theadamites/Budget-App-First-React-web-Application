@@ -1,59 +1,41 @@
+/* Reset some default styles */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Base styles */
 .App {
   font-family: sans-serif;
   text-align: center;
   overflow-y: auto; 
-  max-height: 100%;
-}
-html, body {
-	
+  max-height: 100vh; /* Adjust to your preference */
   background-color: #ffffff;
-  text-align: left;
-  margin: 0;
-}
-
-* {
-	font-family: Helvetica, Arial, sans-serif;
-  box-sizing: border-box;
 }
 
 #app {
-	position: relative;
-	width: 100%;
-	padding: 10px;
-}
-
-input {
-  width: 90%;
-  max-width: 300px;
-  margin: 5px 5%;
-}
-button {
-  width: 90%;
-  max-width: 300px;
-  margin: 5px 5%;
-}
-
-/* styles.css */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+  position: relative;
+  width: 100%;
+  padding: 10px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  height: 100vh;
-  background-color: #f0f0f0;
 }
 
+input, button {
+  width: 90%;
+  max-width: 300px;
+  margin: 5px auto; /* Center horizontally */
+}
 
-/* Admin.css */
-
+/* Admin styles */
 .user-list {
   border: 2px solid rgb(202, 5, 5);
   padding: 5px;
-  height:50%;
-  margin: 10px;
+  height: 50%;
+  margin: 10px auto; /* Center horizontally */
   border-radius: 10px;
-  box-shadow: 10 2px 4px rgba(216, 14, 14, 0.1);
+  box-shadow: 0 2px 4px rgba(216, 14, 14, 0.1);
 }
 
 .user-item {
@@ -62,23 +44,14 @@ body {
   background-color: #c93838;
 }
 
-.user-number {
-  font-weight: bold;
-}
-
-.user-details {
-  margin-left: 10px;
-}
-
-/* FeedBox.css */
+/* FeedBox styles */
 .feed-box {
-  max-height:400px; /* Set the maximum height of the feed box */
-  overflow-y: auto; /* Enable vertical scroll when content exceeds max-height */
-  border: 1px fade #cac8c8;
+  max-height: 80vh; /* Adjust to your preference */
+  overflow-y: auto;
+  border: 1px solid #cac8c8;
   padding: 20px;
-  position: center;
-	width: 100%;
-	padding: 10px;
+  width: 100%;
+  margin: 10px auto; /* Center horizontally */
 }
 
 .feed-item {
@@ -87,17 +60,12 @@ body {
   margin: 5px 0;
 }
 
-/* styles.css */
-/* ... (other styles) */
-/* styles.css */
-/* styles.css */
+/* Other styles */
 .analize-container {
   font-family: sans-serif;
   text-align: center;
   overflow-y: auto;
 }
-
-/* ... other styles ... */
 
 .progress-bar {
   width: 100%;
@@ -145,11 +113,7 @@ body {
   margin: 5px 0;
 }
 
-/* Your existing styles */
-
-
-/* Your existing styles */
-
+/* Additional styles */
 .fade-blur {
   position: relative;
   overflow: hidden;
@@ -162,7 +126,16 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(circle, rgba(255, 0, 0, 0.6), transparent); /* Radial gradient for the fade blur */
-  pointer-events: none; /* Allow clicking through the pseudo-element */
+  background: radial-gradient(circle, rgba(255, 0, 0, 0.6), transparent);
+  pointer-events: none;
 }
 
+/* Responsive styles for the boundary container */
+#app-boundary {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
