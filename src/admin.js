@@ -40,7 +40,7 @@ export default function Admin() {
       }
       return user;
     });
-    Users=updatedUserList;
+    Users=updatedUserList; 
     setUserList(updatedUserList);
     setEditingMode(false);
     setEditedUser(null);
