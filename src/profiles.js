@@ -7,7 +7,7 @@ const Users = [
     firstName: "Adam",
     lastName: "Elgendy",
     age: 21,
-    income: 200000,
+    income: 90000,
     password: "Adam2001"
   },
   {
@@ -16,7 +16,7 @@ const Users = [
     firstName: "jimmy",
     lastName: "Smith",
     age: 25,
-    income: 35000,
+    income: 80000,
     password: "jimmy"
   },
   {
@@ -25,7 +25,7 @@ const Users = [
     firstName: "Jenna",
     lastName: "Tolmacove",
     age: 27,
-    income: 1,
+    income: 70000,
     password: "meh"
     },
   {
@@ -43,7 +43,7 @@ const Users = [
     firstName: "Jimpo",
     lastName: "Junior",
     age: 29,
-    income: 25000,
+    income: 40000,
     password: "Junior"
   },
   {
@@ -52,7 +52,7 @@ const Users = [
     firstName: "Emily",
     lastName: "Johnson",
     age: 28,
-    income: 55000,
+    income: 30000,
     password: "EmiPass"
   },
   {
@@ -61,7 +61,7 @@ const Users = [
     firstName: "Michael",
     lastName: "Brown",
     age: 32,
-    income: 95000,
+    income: 50000,
     password: "Mike123"
   },
   {
@@ -70,7 +70,7 @@ const Users = [
     firstName: "Olivia",
     lastName: "Davis",
     age: 24,
-    income: 48000,
+    income: 59000,
     password: "OliviaPass"
   },
   {
@@ -79,7 +79,7 @@ const Users = [
     firstName: "William",
     lastName: "Miller",
     age: 30,
-    income: 62000,
+    income: 75000,
     password: "Will2023"
   },
   {
@@ -88,7 +88,7 @@ const Users = [
     firstName: "Ava",
     lastName: "Martinez",
     age: 27,
-    income: 59000,
+    income: 65000,
     password: "AvaPass"
   }
 
