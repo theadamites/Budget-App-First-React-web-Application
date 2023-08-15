@@ -33,13 +33,13 @@ export default function Analize() {
 
       <div>
         Average Age: {Math.round(averageAge)||0} / 40 
-        <div className="progress-bar">
+        <div className="progress-bar" >
           <div
             className="progress"
-            style={{ width: `${(averageAge / 40) * 100}%`}}
+            style={{ width: `${(averageAge / 40 )*100}%`}}
           >
-            <div className="progress-text">
-              AAG: 40 | {Math.round((averageAge / 40) * 100)||0}
+            <div className="progress-text" >
+              {Math.round((averageAge / 40) * 100)||0}%
             </div>
           </div>
         </div>
@@ -54,7 +54,7 @@ export default function Analize() {
             style={{ width: `${(averageIncome / 75000) * 100}%` }}
           >
                     <div className="progress-text">
-              AIG: 75,000 | {Math.round((averageIncome / 75000) * 100) || 0}%
+            {Math.round((averageIncome / 75000) * 100) || 0}%
             </div>
           </div>
 
