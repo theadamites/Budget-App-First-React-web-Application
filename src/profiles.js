@@ -7,7 +7,7 @@ const Users = [
     firstName: "Adam",
     lastName: "Elgendy",
     age: 21,
-    income: 90000,
+    income: 9000d0,
     password: "Adam2001"
   },
   {
