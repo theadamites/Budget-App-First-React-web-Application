@@ -36,7 +36,14 @@ input, button {
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(216, 14, 14, 0.1);
 }
-
+.column {
+  border: 2px solid rgb(202, 5, 5);
+  padding: 5px;
+  flex: colum;
+  margin: 10px auto; /* Center horizontally */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(216, 14, 14, 0.1);
+}
 .user-item {
   margin-bottom: 20px;
   padding: 10px;
