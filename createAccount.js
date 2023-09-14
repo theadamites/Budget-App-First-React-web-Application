@@ -54,6 +54,7 @@ const handleSubmit = async (event) => {
               <h1>Create a Profile</h1>
         <h2>Enter the Following Information</h2>
         <form onSubmit={handleSubmit} className="form-container">
+          <div className='column'>
             <input
               className="input-field"
               value={user.FirstName || ""}
@@ -126,6 +127,7 @@ const handleSubmit = async (event) => {
             ></input>
             <button type="submit" className="submit-button" >Create Account</button>
             <button className="submit-button" onClick={handleLoginClick}>Login Account</button>
+                </div>
           </form>
         <div>
       </div>
